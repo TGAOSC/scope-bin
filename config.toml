@@ -1,0 +1,15 @@
+[cveDict]
+type = "sqlite3"
+SQLite3Path = "/usr/share/scope/cve.sqlite3"
+
+[ovalDict]
+type = "sqlite3"
+SQLite3Path = "/usr/share/scope/oval.sqlite3"
+
+[servers]
+
+[servers.localhost]
+host = "localhost"
+port = "local"
+scanMode = [ "fast" ]
+
