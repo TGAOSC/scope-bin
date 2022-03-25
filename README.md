@@ -2,4 +2,4 @@
 
 # Install
 
-Read and run [scopesetup.sh]
+Read and run [scopesetup.sh](scopestep.sh)
