@@ -26,7 +26,7 @@ sudo go-cve-dictionary fetch nvd ;
 
 sudo sudo goval-dictionary fetch ubuntu 20 21 ; cd .. ; # /usr/share ?
 
-# sudo?
+# current in /usr/share -- so need sudo?
 wget https://github.com/TGAOSC/scope-bin/releases/download/Releases/config.toml ;
 
 # still in /usr/share ?
