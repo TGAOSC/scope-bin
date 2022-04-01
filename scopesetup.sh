@@ -24,11 +24,12 @@ sudo mkdir -p /usr/share/scope ; cd /usr/share/scope ;
 
 sudo go-cve-dictionary fetch nvd ;
 
-sudo goval-dictionary fetch ubuntu 20 21 ;
+sudo sudo goval-dictionary fetch ubuntu 20 21 ; cd .. ; # /usr/share ?
 
-sudo wget https://github.com/TGAOSC/scope-bin/releases/download/Releases/config.toml ;
+# sudo?
+wget https://github.com/TGAOSC/scope-bin/releases/download/Releases/config.toml ;
 
-# rm -rf scopetemp ;
+# still in /usr/share ?
+rm -rf scopetemp ;
 
 echo "Done! run "scope scan" to scan and "scope tui" to see your results!"
-
