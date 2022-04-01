@@ -26,7 +26,7 @@ sudo go-cve-dictionary fetch nvd ;
 
 sudo goval-dictionary fetch ubuntu 20 21 ;
 
-wget https://github.com/TGAOSC/scope-bin/releases/download/Releases/config.toml ;
+sudo wget https://github.com/TGAOSC/scope-bin/releases/download/Releases/config.toml ;
 
 # rm -rf scopetemp ;
 
